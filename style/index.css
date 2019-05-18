@@ -1,0 +1,37 @@
+.container{
+
+justify-content:center;/*ориентирование слева направо*/
+align-items;/*#ориентирование сверху вниз*/
+display:flex;
+border:dashed 4px crimson;/*рамочка-дырявая-4пкс-желтая*/
+background:lightgreen;
+width:300px;/*ширина*/
+height:500px;/*высота*/
+flex-wrap:wrap;/*не упихивает все в рамку-выталкивает*/
+margin-left:auto;
+margin-right:auto;
+padding:2px 2px 2px;
+}
+
+.one{
+width:200px;
+height:100px;
+justify-content:center;
+border:solid 2px red;
+padding:30px 30px;
+
+
+}
+.two{
+width:300px;
+height:200px;
+color:blue;
+border:solid 2px blue;
+margin: 5px 5px;
+}
+.three{
+color:green;
+border:solid 4px green;
+width:200px;
+height:200px;
+}
